@@ -6,7 +6,7 @@ void increment_all (int* start, int* stop)
   int * current = start;
   while (current != stop) {
     ++(*current);
-    ++current;
+    ++current;//This is the first link www.google.com 
   }
 }
 
@@ -16,7 +16,7 @@ void print_all (const int* start, const int* stop)
   while (current != stop) {
     cout << *current << '\n';
     ++current;
-  }
+  }//there are two links https://www.ebay.com.au https://www.australia.gov.au 
 }
 
 int main ()
